@@ -7,9 +7,6 @@ cache:
     - node_modules
     - ~/.npm
 
-git:
-  depth: 3
-
 script:
   - yarn build
 
