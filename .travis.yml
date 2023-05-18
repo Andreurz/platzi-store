@@ -1,10 +1,10 @@
-lenguage: node_js #lenguaje en que es programaa la aplicacion
+lenguage: node_js
 cache:
-  directories: #directorios cacheables
+  directories: 
     - node_modules
     - ~/.npm
 
-node_js: #version de node js
+node_js: 
   - '12'
 
 git:
@@ -14,15 +14,12 @@ script:
   - yarn build
 
 deploy:
-  provider: pages #pages hace referencia a github pages
+  provider: pages 
   skip-cleanup: true
   keep-history: true
-  github-token: $GITHUB_TOKEN #esta variabe sera creada manualmente para hacer referencia al token de github
-  local-dir: dist/ #directorio resultante de la compilacion o despliegue
-  target-branch: gh-pages #Rama que va a detectar GitHub por defecto, como el lugar en donde va a buscar el contenidoa  publicar en github page
-  commit-message: "Deploy del proyecto" #Sera el comit enviado a la rama de gh-pages
-  on: #Que rama va a monitorear para realizar toda la operacion de despliegue cuando detecte cambios
-    branch: master
-
-#por defecto travis ejecutar instala todsas las dependencias contenidas en package.json dentro del proyecto creado con node_js, esto nos ahorra la descripcion de dependencias a instalar en el install:
-
+  github-token: $GITHUB_TOKEN
+  local-dir: dist/
+  target-branch: gh-pages
+  commit-message: "Deploy del proyecto"
+  on:
+    branch: main
