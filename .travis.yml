@@ -14,7 +14,8 @@ script:
   - yarn build
 
 notification:
-  slack: anonimosas:OCUCxE1g7epy4Dcit7dXsnHV
+  slack: 
+    secure: "rw8xUCoZG/tVM5ajpBxRsbtyjXd1pQUhIZAler+3tCy1sYXxYuYr6/i/vSVAYJUZo1AhrzRW1l9Yd5lSNfLxtpuI4kBpTHKersPDp7odRJLzz4RsQIqtq4HCEfF6DtjejEwaHLFRrKLCa9bAcFeCH4Ytu9+OzuXyZiD9ohUmael00TMGpzROfQCmdxesv+UUTw67PhqEL/U4hp629abcOyasByuJYAOt9XcNeYvf1lTqdPhgo84rF57h53i8xhqnLHKVflDz/vvgG5qI6V/PvXH64tYoCf6RYpOko2//GmHu0noPyjE5RCtfze5lmmLheuJ4pSJVob/EYgy2ucSd9pRCx4YlDlirTdYmUp1UwHeehrr3xp1px9Y5QcjIj+CiOasSLInCA2nncophzfHnFT68xX16nyFDcPWp7OSFuaT37NeUM5vqbylNgPc/elpa0QA7ZVOaxw3mAQRSav81CcPaxxgrlhdg8WOrBNNy3adqGKhUX0YpNnYVOq2nYdW/cDnkPUF76HRzTBF1Vl5L4l3Y+AfwXSmNmLkp7sX5s7XESMEshOA8t/NzFqz1/qkC2YCav6EvP7d65lm3zLShwEAUZil1HAc6H9JEfrZkvD5wRnEmYhMuxPGxSc8m/JEwSRupoYD16sc1poZ0+XBuGrt+OYBwFDpoWdyyc49ljpw="
   email:
     recipients: 
       - desarrolloandbar@gmail.com
