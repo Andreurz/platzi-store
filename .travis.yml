@@ -20,7 +20,8 @@ notification:
       - andreurz@outlook.com
     on_success: always
     on_failure: always
-
+  slack: anonimosas:OCUCxE1g7epy4Dcit7dXsnHV
+  
 deploy:
   provider: pages 
   skip-cleanup: true
