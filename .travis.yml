@@ -13,6 +13,14 @@ git:
 script:
   - yarn build
 
+notification:
+  email:
+    recipients: 
+      - desarrolloandbar@gmail.com
+      - andreurz@outlook.com
+    on_success: always
+    on_failure: always
+
 deploy:
   provider: pages 
   skip-cleanup: true
