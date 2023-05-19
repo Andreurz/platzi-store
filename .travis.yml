@@ -14,13 +14,13 @@ script:
   - yarn build
 
 notification:
+  slack: anonimosas:OCUCxE1g7epy4Dcit7dXsnHV
   email:
     recipients: 
       - desarrolloandbar@gmail.com
       - andreurz@outlook.com
     on_success: always
     on_failure: always
-  slack: anonimosas:OCUCxE1g7epy4Dcit7dXsnHV
   
 deploy:
   provider: pages 
@@ -31,4 +31,4 @@ deploy:
   target-branch: gh-pages
   commit-message: "Deploy del proyecto"
   on:
-    branch: main
+    branch: master
